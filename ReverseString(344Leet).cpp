@@ -1,3 +1,6 @@
+//Question link->https://leetcode.com/problems/reverse-string/description/
+//Topic->Stacks,Vectors
+//Question number(On leetcode)->344
 class Solution {
 public:
     void reverseString(vector<char>& s) {
