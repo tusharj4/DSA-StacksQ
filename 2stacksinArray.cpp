@@ -1,3 +1,5 @@
+//Question Link->https://practice.geeksforgeeks.org/problems/implement-two-stacks-in-an-array/1
+//Company tags-> Microsoft,Samsung,Snapdeal,24*7 Innovation Labs
 //{ Driver Code Starts
 #include<bits/stdc++.h>
 
