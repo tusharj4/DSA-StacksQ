@@ -1,3 +1,5 @@
+//Self practice course Question-> Lecture 1 of Stack(Babbar Bhaiya)
+//Question->" Find the middle element of a stack "
 #include <iostream>
 #include <stack>
 using namespace std;
