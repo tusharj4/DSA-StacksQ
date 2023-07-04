@@ -1,4 +1,6 @@
 //Insert an element at the bottom of a stack
+//Question link->"https://www.codingninjas.com/studio/problems/insert-an-element-at-its-bottom-in-a-given-stack_1171166?leftPanelTab=1"
+
 void ins(stack<int>& myStack, int target)
 {
     if(myStack.empty())
