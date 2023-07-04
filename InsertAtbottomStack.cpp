@@ -1,6 +1,6 @@
 //Insert an element at the bottom of a stack
 //Question link->"https://www.codingninjas.com/studio/problems/insert-an-element-at-its-bottom-in-a-given-stack_1171166?leftPanelTab=1"
-
+// APPROACH 1
 void ins(stack<int>& myStack, int target)
 {
     if(myStack.empty())
@@ -24,5 +24,23 @@ void pushAtBottom(stack<int>& myStack, int x)
         // return myStack ;
     }
     ins(myStack, x);
+    // return myStack;
+}
+
+//Approach 2
+void pushAtBottom(stack<int>& myStack, int x) 
+{
+    // Write your code here.
+    if(myStack.empty())
+    {
+        myStack.push(x);
+        return;
+        // return myStack ;
+    }
+    // ins(myStack, x);
+    int temp=myStack.top();
+    myStack.pop();
+    pushAtBottom(myStack, x);
+    myStack.push(temp);
     // return myStack;
 }
