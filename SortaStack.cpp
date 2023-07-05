@@ -1,3 +1,6 @@
+//Question Link->"https://www.codingninjas.com/studio/problems/sort-a-stack_985275"
+//Question->Sort a Stack(using recursion)
+//Companies asked in -> Amazon, Microsoft, Goldman Sachs, Intuit, Yahoo, IBM, Kuliza
 #include <bits/stdc++.h> 
 void insertSorted(stack<int>& stack, int target)
 {
